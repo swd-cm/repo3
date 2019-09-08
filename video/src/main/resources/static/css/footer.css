@@ -1,0 +1,26 @@
+footer{
+	width:100%;
+	border-top: 3px solid orange;
+	padding: 0px 280px 0 280px;
+}
+
+.dc2{
+	float:left;
+	width: 150px;
+	margin-left: 200px;
+	margin-bottom: -15px;
+	}
+.dc2>div{
+	margin-top: 19px;
+}
+.dc2>div>a{
+	color: gray;
+	margin-left: 15px;
+}
+#d7{
+	margin-top: 220px;
+	color: gray;
+}
+#d7>div{
+	margin-bottom: 15px;
+}

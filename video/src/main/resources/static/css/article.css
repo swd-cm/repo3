@@ -1,0 +1,97 @@
+article{
+	height: 600px;
+	padding: 15px 130px 0 130px;
+}
+#d2>div{
+	float: left;
+	margin-left:22px;
+}
+#d2>div>div{
+	border:0;
+	border-radius:60px;
+	font-weight: bold;
+	padding: 16px;
+	background-color:#DCDCDC;
+	width: 290px;
+	margin-top: 20px;
+}
+#d2>div>div>img{
+	width: 25px;
+}
+#d2>div>div>a{
+	font-size:18px;
+	vertical-align:middle;
+	cursor: pointer;
+}
+.a1{
+	color: black;
+	border-right:1px solid gray; 
+	padding-right: 12px;
+}
+.a2{
+	margin-left:6px;
+	color:gray;
+}
+.a3{
+	float:right;
+	margin-right:5px;
+	color: gray;
+}
+#d3{
+	float:left;
+}
+#d3>div{
+	float: left;
+	margin-left:35px;
+	padding-top: 30px;
+}
+#d3>div>div>a{
+	color: black;
+	font-size: 20px;
+	cursor: pointer;
+}
+#d3 img{
+	width:116px;
+	margin-left: -5px;
+	margin-top: -22px;
+	position: relative;
+	cursor: pointer;
+}
+.dc1{
+	position:relative;
+	top:50px;
+}
+#d4{
+	margin-top:200px;
+	height:60px;
+}
+#d4>h1>a{
+	margin-left:12px;
+	color: gray;
+	font-size: 15px;
+}
+#d4>div{
+	position:absolute;
+	right:156px;
+	top:730px;
+}
+#d4>div>button{
+	background-color: white;
+	border: 0px;
+}
+#d4>section>img{
+	width: 300px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+#d4>section>div{
+	float: left;
+	margin-left: 95px;
+	margin-right: 72px;
+}
+#d4>section>div>a{
+	color: black;
+}
+#d4>section>div>small{
+	color: gray;
+}

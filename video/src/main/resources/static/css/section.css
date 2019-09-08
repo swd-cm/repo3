@@ -1,0 +1,40 @@
+#s1{
+	height: 380px;
+	padding: 15px 130px 0 130px;
+	margin-top: -60px;
+}
+#d5{
+	height:60px;
+}
+#d5>h1>a{
+	margin-left:12px;
+	color: gray;
+	font-size: 15px;
+}
+#d5>div{
+	position:absolute;
+	right:156px;
+	top:1100px;
+}
+#d5>div>button{
+	background-color: white;
+	border: 0px;
+	
+}
+#d5>section>img{
+	width: 300px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+#d5>section>div{
+	float: left;
+	margin-left: 100px;
+	margin-right: 80px;
+}
+#d5>section>div>a{
+	color: black;
+	cursor: pointer;
+}
+#d5>section>div>small{
+	color: gray;
+}

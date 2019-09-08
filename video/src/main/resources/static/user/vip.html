@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body> 
+<form>
+是否开通会员：
+<input id="i1" type="button" value="是">
+<input id="i2" type="button" value="否">
+</form>
+<script type="text/javascript" src="../bootstrap/jquery.min.js"></script>
+<script type="text/javascript">
+	$("#i2").click(function(){
+		location.href="http://localhost:8080/homepage/myindex.html"
+	})
+	$("#i1").click(function(){
+		$.ajax({
+			"url":"/user/update_vip",
+			"type":"post",
+			"datatype":"json",
+			"success":function(json){
+				if(json.state==2000){
+					alert("成功开通会员！")
+					location.href="http://localhost:8080/homepage/myindex.html"
+				}else{
+					alert("失败"+json.message)
+				}
+			}
+	
+		})
+	})	
+</script>
+</body>
+</html>
